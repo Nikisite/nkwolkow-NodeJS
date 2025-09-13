@@ -1,0 +1,23 @@
+.login-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.login-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-container a{
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+}
+
+.login-container a:hover{
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+}
