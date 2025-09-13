@@ -1,0 +1,46 @@
+{
+  "name": "main-project-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": "20.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js",
+    "start": "MONGO_USER=nkwolkow MONGO_PASSWORD=KHRu0Tj1ZFoVgcDA MONGO_DB_NAME=shop STRIPE_KEY=sk_test_51RuB7iQ7pB9ljkf4AlsgBw4asRHf2FQ8TjNjt0UxlUU04bSJ2VAYSCpMsG6i0LO3laIIfTOrmSl0zD7JQhEQpTo100ABqztTaD SENDGRID_KEY=  node app.js",
+    "build": "npm install"
+  },
+  "author": "Nikita Volkov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "compression": "^1.8.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-handlebars": "3.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "main-project-nodejs": "file:",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.1",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^7.0.3",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.17.1",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.5",
+    "stripe": "^18.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "description": ""
+}
